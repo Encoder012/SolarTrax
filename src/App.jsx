@@ -1,15 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import Home from './pages/Home'
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from './pages/Home';
+import Projects from './pages/Projects';
+import PostProject from './pages/PostProject';
 
 function App() {
 
 
-  return (<>
-   <Home />
-  </>
+  return (<div>
+    <Router>
+      <Routes>
+        <Route path='/' exact element={<Home/>} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/post-project" element={<PostProject/>} />
+      </Routes>
+    </Router>
+  </div>
   
   )
 }
