@@ -48,15 +48,15 @@ function Projects() {
     };
 
     return (
-        <div className="flex min-h-screen w-full overflow-hidden scrollbar-hidden bg-[#04011C] text-white">
+        <div className="flex min-h-screen w-full overflow-hidden scrollbar-hidden bg-[#07011f] text-white">
             <div className="flex-1 p-4 sm:p-8 overflow-hidden">
-                <header className="sticky top-0 z-30 flex items-center justify-between h-16 px-4 bg-[#0D0D2D] border-b border-gray-800">
+                <header className="sticky top-0 z-30 flex items-center justify-between h-16 px-4 bg-[#07011f] border-b border-gray-800">
                     <FadeIn direction="down" delay={0.1} fullWidth>
                         <h1 className="md:text-4xl text-2xl font-semibold text-left text-white">Projects</h1>
                     </FadeIn>
                     <FadeIn direction="down" delay={0.1}>
                         <Link to="/projects/post-project">
-                            <Button variant="outline" className="flex items-center gap-2 text-[#C554C5] border-[#C554C5] bg-[#0D0D2D] hover:bg-[#C554C5] hover:text-white">
+                            <Button variant="outline" className="flex items-center gap-2 text-[#f1ebf1] border-[#C554C5] bg-[#0D0D2D] hover:bg-[#C554C5] hover:text-white rounded-xl mb-2">
                                 <PlusCircle className="h-5 w-5" />
                                 Post a Project
                             </Button>

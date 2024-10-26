@@ -6,13 +6,12 @@ import ExploreProjects from '../components/exploreProjects'
 
 const Home = () => {
   return (
-    <div>
-        <Navbar />
+    <>
         <Hero />
         <ExploreProjects />
         <Link to="/projects">Project</Link>
         {/* <Dashboard /> */}
-    </div>
+      </>
   )
 }
 export default Home;

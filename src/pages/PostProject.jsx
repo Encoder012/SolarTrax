@@ -5,6 +5,7 @@ import FadeIn from '../components/FadeIn';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { PlusCircle } from 'lucide-react';
 
 const PostProject = () => {
   // Define color variables
@@ -63,27 +64,10 @@ const PostProject = () => {
           </FadeIn>
           <FadeIn direction="down" delay={0.2}>
             <Link to="/projects">
-              <Button
-                variant="outline"
-                className="flex items-center gap-2"
-                style={{
-                  color: colors.text,
-                  borderColor: colors.border,
-                  backgroundColor: 'transparent',
-                  transition: 'background-color 0.3s, color 0.3s',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = colors.highlightTransparent;
-                  e.currentTarget.style.color = 'white';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = 'transparent';
-                  e.currentTarget.style.color = colors.text;
-                }}
-              >
-                View Projects
-                <Send className="h-5 w-5" />
-              </Button>
+            <Button variant="outline" className="flex items-center gap-2 text-[#f1ebf1] border-[#C554C5] bg-[#0D0D2D] hover:bg-[#C554C5] hover:text-white rounded-xl mb-2">
+                                <PlusCircle className="h-5 w-5" />
+                                View Projects
+                            </Button>
             </Link>
           </FadeIn>
         </header>
