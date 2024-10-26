@@ -3,7 +3,7 @@ import './css/navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 navbar">
+    <nav className="navbar">
         <div>
             <h1 className='logo-text'>STRAX</h1>
         </div>

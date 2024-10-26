@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap');
+.baloo-bhaina-2 {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.left {
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.right{
+    overflow-x: hidden;
+    width: 50vw;
+    height: 100%;
+}
+.title{
+    color: white;
+    background: var(--front-text, linear-gradient(109deg, rgba(255, 255, 255, 0.90) 20.22%, rgba(0, 56, 255, 0.89) 143.14%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+}
+.content{
+    color:  white;
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-size: 24px;
+    line-height: 1;
+}
+
+button{
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(104deg, #DF1CFF -25.59%, #EA0070 138%);
+    box-shadow: 0px 9px 100px 0px rgba(208, 17, 204, 0.35);
+    margin-top: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+.content-div{
+    margin-top: 100px;
+    margin-left: 25%;
+}
+
+.hero-div{
+    /* overflow-y: hidden; */
+    display: flex;
+}
+.bottom-right{
+position: absolute;
+width: 485px;
+height: 280px;
+border-radius: 89px 0px 0px 0px;
+background: rgba(255, 255, 255, 0.10);
+/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+backdrop-filter: blur(20px);
+bottom: -10%;
+right: 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+.bottom-right-title{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 36px */
+letter-spacing: 0.96px;
+text-transform: capitalize;
+}
+
+.bottom-right-content{
+    width: 70%;
+    text-wrap: wrap;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: 0.8px;
+}
+
+.bottom-right-button{
+    color: #1DF659;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+letter-spacing: 0.8px;
+}
+.bottom-right-button::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    left: 20%;
+    top: 74%;
+    /* margin-left: 50%; */
+    aspect-ratio: 1;
+    /* height: 100%; */
+    background-color: #1DF659;
+    border-radius: 50%;
+}
+.bottom-right-button::after{
+    content: "→";
+    position: absolute;
+    left: 19%;
+
+    width: 60px;
+    right: 20%;
+    top: 72.3%;
+    aspect-ratio: 1;
+    background-color: rgba(29, 246, 89, 0.20);
+    border-radius: 50%;
+}

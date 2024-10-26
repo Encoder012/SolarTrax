@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    /* padding: 1rem; */
+    margin: 1rem;
+    position: sticky;
     width: 100%;
-    background-color: #297FFF;
 }
 
 .nav-links {
@@ -13,9 +14,11 @@
     align-items: center;
     color: white;
     list-style-type: none;
-    margin: 10px;
+    /* margin: 10px; */
 }
-
+.nav-links li{
+    margin-left: 2rem;
+}
 .nav-buttons {
     color: white;
 }
