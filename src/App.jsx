@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import PostProject from './pages/PostProject';
 import { SignUp } from './pages/SignUp';
 import { Login } from './pages/login';
-
+import { Dashboard } from './components/dashboard';
 function App() {
 
 
@@ -19,6 +19,7 @@ function App() {
         <Route path="/projects/post-project" element={<PostProject/>} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   </div>
