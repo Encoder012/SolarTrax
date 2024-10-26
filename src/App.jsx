@@ -7,7 +7,6 @@ import Projects from './pages/Projects';
 import PostProject from './pages/PostProject';
 import { SignUp } from './pages/SignUp';
 import { Login } from './pages/login';
-import PostProject from './pages/PostProject';
 
 
 import { Dashboard } from './components/dashboard';
