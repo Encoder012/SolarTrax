@@ -10,7 +10,7 @@ import { Login } from './pages/login';
 import Navbar from './components/navbar';
 
 
-import { Dashboard } from './components/dashboard';
+import  Dashboard  from './components/dashboard';
 import Donation from './pages/Donation';
 function App() {
 

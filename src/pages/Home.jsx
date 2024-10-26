@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
         <Hero />
-        <ExploreProjects />
+        {/* <ExploreProjects /> */}
         <Link to="/projects">Project</Link>
         {/* <Dashboard /> */}
       </>
